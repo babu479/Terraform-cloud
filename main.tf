@@ -45,9 +45,6 @@ data "aws_ami_ids" "amiid" {
   bucket_properties=var.S3-Setup
 }*/
 module "vpc" {
-    providers = {
-      aws=aws.west
-    }
     source = "./modules/Part1-Network"
     vpc_name = var.vpc_name
     vpc_cidr = var.vpc-cidr
