@@ -1,6 +1,6 @@
 variable "vpc_name" {
     type = string
-    default = "Hukum-vpc"
+    default = "Hukum-vpc1"
   
 }
 variable "vpc-cidr" {
