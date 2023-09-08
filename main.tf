@@ -18,6 +18,7 @@ terraform {
 }
   provider "aws" {
     region = "us-east-1"
+    role_arn="arn:aws:iam::763310177211:role/Admin"
     
   }
   provider "aws" {
